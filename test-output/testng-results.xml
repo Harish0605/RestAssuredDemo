@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-22T20:54:12 IST" name="Default suite" finished-at="2023-10-22T20:54:15 IST" duration-ms="3269">
+    <groups>
+    </groups>
+    <test started-at="2023-10-22T20:54:12 IST" name="Default test" finished-at="2023-10-22T20:54:15 IST" duration-ms="3269">
+      <class name="demo.LibraryPractice">
+        <test-method signature="libraryCollection(java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:demo.LibraryPractice@5b03b9fe]" started-at="2023-10-22T20:54:12 IST" name="libraryCollection" data-provider="BooksData" finished-at="2023-10-22T20:54:14 IST" duration-ms="2224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HB1697988252293]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[41]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AuthorName1697988252293]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BookName1697988252293]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- libraryCollection -->
+        <test-method signature="libraryCollection(java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:demo.LibraryPractice@5b03b9fe]" started-at="2023-10-22T20:54:14 IST" name="libraryCollection" data-provider="BooksData" finished-at="2023-10-22T20:54:15 IST" duration-ms="522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HB1697988252293]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AuthorName1697988252293]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BookName1697988252293]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- libraryCollection -->
+        <test-method signature="libraryCollection(java.lang.String,int,java.lang.String,java.lang.String)[pri:0, instance:demo.LibraryPractice@5b03b9fe]" started-at="2023-10-22T20:54:15 IST" name="libraryCollection" data-provider="BooksData" finished-at="2023-10-22T20:54:15 IST" duration-ms="481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HB1697988252293]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[69]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AuthorName1697988252293]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[BookName1697988252293]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- libraryCollection -->
+      </class> <!-- demo.LibraryPractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

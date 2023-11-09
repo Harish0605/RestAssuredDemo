@@ -1,0 +1,38 @@
+package files;
+
+public class payload {
+
+	public static String addPlace() {
+
+		return "{\r\n" + "  \"location\": {\r\n" + "    \"lat\": -38.383,\r\n" + "    \"lng\": 33.427362\r\n"
+				+ "  },\r\n" + "  \"accuracy\": 50,\r\n" + "  \"name\": \"Harish B new place added\",\r\n"
+				+ "  \"phone_number\": \"(+91) 8341567568\",\r\n" + "  \"address\": \"29, side layout, cohen 09\",\r\n"
+				+ "  \"update\": \"updated on sep 22\",\r\n" + "  \"types\": [\r\n" + "    \"shoe park\",\r\n"
+				+ "    \"shop\"\r\n" + "  ],\r\n" + "  \"website\": \"http://google.com\",\r\n"
+				+ "  \"language\": \"French-IN\"\r\n" + "}";
+
+	}
+
+	public static String coursePrice() {
+		return "{\r\n" + "\r\n" + "\"dashboard\": {\r\n" + "\r\n" + "\"purchaseAmount\": 1270,\r\n" + "\r\n"
+				+ "\"website\": \"rahulshettyacademy.com\"\r\n" + "\r\n" + "},\r\n" + "\r\n" + "\"courses\": [\r\n"
+				+ "\r\n" + "{\r\n" + "\r\n" + "\"title\": \"Selenium Python\",\r\n" + "\r\n" + "\"price\": 50,\r\n"
+				+ "\r\n" + "\"copies\": 6\r\n" + "\r\n" + "},\r\n" + "\r\n" + "{\r\n" + "\r\n"
+				+ "\"title\": \"Cypress\",\r\n" + "\r\n" + "\"price\": 40,\r\n" + "\r\n" + "\"copies\": 4\r\n" + "\r\n"
+				+ "},\r\n" + "\r\n" + "{\r\n" + "\r\n" + "\"title\": \"RPA\",\r\n" + "\r\n" + "\"price\": 45,\r\n"
+				+ "\r\n" + "\"copies\": 10\r\n" + "\r\n" + "},\r\n" + "  {\r\n" + "\r\n" + "\"title\": \"Appium\",\r\n"
+				+ "\r\n" + "\"price\": 36,\r\n" + "\r\n" + "\"copies\": 10\r\n" + "\r\n" + "}\r\n" + "\r\n" + "]\r\n"
+				+ "\r\n" + "}";
+	}
+
+	public static String addBookPayload(String isbn, int aisle) {
+		return "{\r\n" + "\r\n" + "\"name\":\"Learn Appium Automation with Harish\",\r\n" + "\"isbn\" : \"" + isbn
+				+ "\",\r\n" + "\"aisle\":\"" + aisle + "\",\r\n" + "\"author\":\"John foe\"\r\n" + "}\r\n" + "";
+
+	}
+
+	public static String delBookPayload(String id) {
+		return "{\r\n" + " \r\n" + "\"ID\" : \"" + id + "\"\r\n" + " \r\n" + "} \r\n" + "";
+		}
+
+}
